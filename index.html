@@ -17,6 +17,9 @@
         href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
         rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/537ff93848.js" crossorigin="anonymous"></script>
+
     <!-- Styles -->
     <style>
         .lora {
@@ -42,36 +45,58 @@
         </div>
         <div>
             <ul class="text-white flex gap-28 montserrat font-medium">
-                <li class="hover:font-bold hover:cursor-pointer hover:border-b-2 border-white">Home</li>
-                <li class="hover:font-bold hover:cursor-pointer hover:border-b-2 border-white">Collection</li>
-                <li class="hover:font-bold hover:cursor-pointer hover:border-b-2 border-white">About</li>
-                <li class="hover:font-bold hover:cursor-pointer hover:border-b-2 border-white">Contact</li>
+                <li
+                    class="hover:font-bold border-b-2 border-b-transparent hover:cursor-pointer hover:border-b-2 hover:border-white">
+                    Home</li>
+                <li
+                    class="hover:font-bold border-b-2 border-b-transparent hover:cursor-pointer hover:border-b-2 hover:border-b-white">
+                    Collection</li>
+                <li
+                    class="hover:font-bold border-b-2 border-b-transparent hover:cursor-pointer hover:border-b-2 hover:border-white">
+                    About</li>
+                <li
+                    class="hover:font-bold border-b-2 border-b-transparent hover:cursor-pointer hover:border-b-2 hover:border-white">
+                    Contact</li>
             </ul>
         </div>
     </header>
-    <main class="flex items-center gap-28 mx-20">
+    <main class="flex items-center gap-28 mx-20 pt-24 bg-[#181719]">
         <div class="text-white flex flex-col gap-10">
             <h2 class="lora text-5xl">
                 Modern interior
             </h2>
             <p class="montserrat text-2xl w-3/4">
-                A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+                A full-Service residential & commercial interior design and staging company offering professional
+                organizing & eco-services.
             </p>
-            <div>
+            <div class="flex items-center gap-4">
                 <p class="montserrat text-lg font-bold">Read more</p>
+                <i class="fa-solid fa-arrow-right-long hover:cursor-pointer" style="color: #ffffff;"></i>
             </div>
         </div>
         <div class="relative">
             <img src="images/photo1.png" alt="">
-            <div>
-                <div class="">
-                    <img src="images/photo2.png" alt="">
+            <div class="p-8 px-20 bg-[#181719] shadow-xl absolute -bottom-20 right-16">
+                <div class="flex items-center space-x-4">
+                    <div>
+                        <img class="rounded-full w-16" src="images/photo2.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-white montserrat font-medium text-sm">Aliza Webber</h3>
+                        <p class="text-xs montserrat font-medium text-[#828282]">Interior designer</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-3xl text-white lora font-bold mt-4">
+                        Designed in 2020 by <br> Aliza Webber
+                    </h3>
                 </div>
             </div>
+
         </div>
     </main>
-    <footer>
-
+    <footer class="flex justify-center text-gray-200 pt-48 pb-8">
+        <h3 class="text-xs">created by Taysir Sayed - devChallenges.io</h3>
     </footer>
 </body>
 
